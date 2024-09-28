@@ -33,6 +33,16 @@ under the License.
       <defaultValue>child-module</defaultValue>
     </requiredProperty>
   </requiredProperties>
+
+  <fileSets>
+    <fileSet filtered="true" packaged="true">
+      <directory></directory>
+      <includes>
+        <include>.gitignore</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+
   <modules>
     <module id="${childModule}" dir="__childModule__" name="${childModule}">
       <fileSets>
