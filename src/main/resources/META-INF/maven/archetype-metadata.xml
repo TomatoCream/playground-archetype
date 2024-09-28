@@ -31,4 +31,15 @@ under the License.
       <directory>src/test/java</directory>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key="javaVersion">
+      <defaultValue>17</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="version">
+      <defaultValue>1.0.0-SNAPSHOT</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="childModule">
+      <defaultValue>child-module</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
